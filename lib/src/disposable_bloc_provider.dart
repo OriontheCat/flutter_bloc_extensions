@@ -1,5 +1,5 @@
 import 'package:bloc/bloc.dart';
-import 'package:flutter/widgets.dart';
+import 'package:flutter_web/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 /// A simple wrapper around [BlocProvider] which also

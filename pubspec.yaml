@@ -8,8 +8,20 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  flutter_web: any
+  flutter_web_ui: any
   flutter_bloc: ^0.13.0
 
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
+dependency_overrides:
+  flutter_web:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web
+  flutter_web_ui:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_ui
+  flutter_bloc:
+    git:
+      url: https://github.com/OriontheCat/bloc
+      path: packages/flutter_bloc
